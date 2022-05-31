@@ -16,10 +16,7 @@ public class Movement : MonoBehaviour
     {
         speed.x = Input.GetAxisRaw("Horizontal");
         transform.Translate(speed * 10 * Time.deltaTime , 0);
-        if ()
-        {
-            
-        }
+
 
         print(transform);
     }
